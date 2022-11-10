@@ -17,7 +17,7 @@ https://dlcdn.apache.org//jmeter/binaries/apache-jmeter-5.5.zip
 
 After download extract apache-jmeter-5.5.zip.
 </br>
-Go to /bin directory
+Go to \bin directory
 </br>
 run command **jmeter**
 </br>
@@ -25,6 +25,8 @@ run command **jmeter**
 ![1](https://user-images.githubusercontent.com/33762836/201033690-35732e6e-8a03-47cd-9275-f3dce4625877.PNG)
 </br>
 ![2](https://user-images.githubusercontent.com/33762836/201033699-e2d7acdd-1991-4f0c-86b4-a5392700059f.PNG)
+</br>
+testing with 1000 records.
 </br>
 ![3](https://user-images.githubusercontent.com/33762836/201033704-13e0ec67-d849-4ce0-8f26-45ede3c9d003.PNG)
 </br>
@@ -34,7 +36,7 @@ run command **jmeter**
 
 ## Using JMeter CLI (for testing)
 
-Go to /bin directory
+Go to \bin directory
 </br>
 run this command
 **jmeter -n -t "<path to your JMeter directory>\apache-jmeter-5.5\Testing API 1.jmx" -l "<path to save result>\testing_result_1.jtl"**
